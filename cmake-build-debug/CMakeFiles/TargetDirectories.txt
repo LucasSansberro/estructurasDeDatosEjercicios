@@ -1,0 +1,4 @@
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/Unidad3.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/EntregaMatrices.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+# ninja log v6
+1	18	1724246553122135246	CMakeFiles/EstructurasDeDatos.dir/main.c.o	4bb3e178ae000246
+1	36	1724246492551973884	CMakeFiles/EstructurasDeDatos.dir/test.c.o	b61d0ce9e9557b1
+1	43	1724427636437033194	CMakeFiles/Unidad3.dir/Unidad3.c.o	a10b745b53b4e880
+0	19	1724427714034925162	build.ninja	9929f82130a0ac60
+1	26	1724246642732384482	EstructurasDeDatos	d79f032823d7933a
+43	67	1724427636479033678	Unidad3	8ec6abc0f2ca0b80
+1	34	1724427744755277115	CMakeFiles/EntregaMatrices.dir/EntregaMatrices.c.o	65ba4d33af30f19f
+34	59	1724427744788277492	EntregaMatrices	c48d9fb5d08c82f5
