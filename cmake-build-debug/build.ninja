@@ -102,6 +102,37 @@ build EntregaMatrices: C_EXECUTABLE_LINKER__EntregaMatrices_Debug CMakeFiles/Ent
   TARGET_FILE = EntregaMatrices
   TARGET_PDB = EntregaMatrices.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Unidad4
+
+
+#############################################
+# Order-only phony target for Unidad4
+
+build cmake_object_order_depends_target_Unidad4: phony || CMakeFiles/Unidad4.dir
+
+build CMakeFiles/Unidad4.dir/Unidad4.c.o: C_COMPILER__Unidad4_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/Unidad4.c || cmake_object_order_depends_target_Unidad4
+  DEP_FILE = CMakeFiles/Unidad4.dir/Unidad4.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Unidad4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Unidad4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Unidad4
+
+
+#############################################
+# Link the executable Unidad4
+
+build Unidad4: C_EXECUTABLE_LINKER__Unidad4_Debug CMakeFiles/Unidad4.dir/Unidad4.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Unidad4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Unidad4
+  TARGET_PDB = Unidad4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices
+build all: phony Unidad3 EntregaMatrices Unidad4
 
 # =============================================================================
 # Built-in targets
