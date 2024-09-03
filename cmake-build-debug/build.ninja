@@ -133,6 +133,37 @@ build Unidad4: C_EXECUTABLE_LINKER__Unidad4_Debug CMakeFiles/Unidad4.dir/Unidad4
   TARGET_FILE = Unidad4
   TARGET_PDB = Unidad4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target EntregaRecursividad
+
+
+#############################################
+# Order-only phony target for EntregaRecursividad
+
+build cmake_object_order_depends_target_EntregaRecursividad: phony || CMakeFiles/EntregaRecursividad.dir
+
+build CMakeFiles/EntregaRecursividad.dir/EntregaRecursividad.c.o: C_COMPILER__EntregaRecursividad_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/EntregaRecursividad.c || cmake_object_order_depends_target_EntregaRecursividad
+  DEP_FILE = CMakeFiles/EntregaRecursividad.dir/EntregaRecursividad.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/EntregaRecursividad.dir
+  OBJECT_FILE_DIR = CMakeFiles/EntregaRecursividad.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EntregaRecursividad
+
+
+#############################################
+# Link the executable EntregaRecursividad
+
+build EntregaRecursividad: C_EXECUTABLE_LINKER__EntregaRecursividad_Debug CMakeFiles/EntregaRecursividad.dir/EntregaRecursividad.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/EntregaRecursividad.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = EntregaRecursividad
+  TARGET_PDB = EntregaRecursividad.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad
 
 # =============================================================================
 # Built-in targets
