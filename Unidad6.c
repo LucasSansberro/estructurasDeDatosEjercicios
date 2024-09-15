@@ -10,7 +10,7 @@ posición.*/
 
 
 int main() {
-    float const array[5] = {1.50,2.50,3.50,4.50,5.50};
+    /*float const array[5] = {1.50,2.50,3.50,4.50,5.50};
     float *puntero = array;
     for (int i = 0; i < 4; ++i) {
         puntero++;
@@ -21,7 +21,16 @@ int main() {
     int test = 10;
     int *testPuntero = &test;
     printf("Prueba de posición %p \n", testPuntero);
-    printf("Prueba de valor: %d", *testPuntero);
+    printf("Prueba de valor: %d", *testPuntero);*/
+
+
+    int A[10]={12,15,17,21,34,45};
+
+    int *B = A;
+
+    *B=A[4];
+
+    printf("%d", *(B+2));
 
     return 0;
 }

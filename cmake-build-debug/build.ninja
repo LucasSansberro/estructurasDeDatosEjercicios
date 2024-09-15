@@ -195,6 +195,37 @@ build Unidad6: C_EXECUTABLE_LINKER__Unidad6_Debug CMakeFiles/Unidad6.dir/Unidad6
   TARGET_FILE = Unidad6
   TARGET_PDB = Unidad6.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Unidad7
+
+
+#############################################
+# Order-only phony target for Unidad7
+
+build cmake_object_order_depends_target_Unidad7: phony || CMakeFiles/Unidad7.dir
+
+build CMakeFiles/Unidad7.dir/Unidad7.c.o: C_COMPILER__Unidad7_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/Unidad7.c || cmake_object_order_depends_target_Unidad7
+  DEP_FILE = CMakeFiles/Unidad7.dir/Unidad7.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Unidad7.dir
+  OBJECT_FILE_DIR = CMakeFiles/Unidad7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Unidad7
+
+
+#############################################
+# Link the executable Unidad7
+
+build Unidad7: C_EXECUTABLE_LINKER__Unidad7_Debug CMakeFiles/Unidad7.dir/Unidad7.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Unidad7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Unidad7
+  TARGET_PDB = Unidad7.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -229,7 +260,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7
 
 # =============================================================================
 # Built-in targets
