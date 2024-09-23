@@ -226,6 +226,68 @@ build Unidad7: C_EXECUTABLE_LINKER__Unidad7_Debug CMakeFiles/Unidad7.dir/Unidad7
   TARGET_FILE = Unidad7
   TARGET_PDB = Unidad7.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ApuntePermitido
+
+
+#############################################
+# Order-only phony target for ApuntePermitido
+
+build cmake_object_order_depends_target_ApuntePermitido: phony || CMakeFiles/ApuntePermitido.dir
+
+build CMakeFiles/ApuntePermitido.dir/ApuntePermitido.c.o: C_COMPILER__ApuntePermitido_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/ApuntePermitido.c || cmake_object_order_depends_target_ApuntePermitido
+  DEP_FILE = CMakeFiles/ApuntePermitido.dir/ApuntePermitido.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/ApuntePermitido.dir
+  OBJECT_FILE_DIR = CMakeFiles/ApuntePermitido.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ApuntePermitido
+
+
+#############################################
+# Link the executable ApuntePermitido
+
+build ApuntePermitido: C_EXECUTABLE_LINKER__ApuntePermitido_Debug CMakeFiles/ApuntePermitido.dir/ApuntePermitido.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ApuntePermitido.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ApuntePermitido
+  TARGET_PDB = ApuntePermitido.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Unidad8
+
+
+#############################################
+# Order-only phony target for Unidad8
+
+build cmake_object_order_depends_target_Unidad8: phony || CMakeFiles/Unidad8.dir
+
+build CMakeFiles/Unidad8.dir/Unidad8.c.o: C_COMPILER__Unidad8_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/Unidad8.c || cmake_object_order_depends_target_Unidad8
+  DEP_FILE = CMakeFiles/Unidad8.dir/Unidad8.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Unidad8.dir
+  OBJECT_FILE_DIR = CMakeFiles/Unidad8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Unidad8
+
+
+#############################################
+# Link the executable Unidad8
+
+build Unidad8: C_EXECUTABLE_LINKER__Unidad8_Debug CMakeFiles/Unidad8.dir/Unidad8.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Unidad8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Unidad8
+  TARGET_PDB = Unidad8.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -260,7 +322,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8
 
 # =============================================================================
 # Built-in targets
