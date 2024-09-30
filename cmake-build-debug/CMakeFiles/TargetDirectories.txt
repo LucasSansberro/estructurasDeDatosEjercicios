@@ -6,5 +6,6 @@
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/Unidad7.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/ApuntePermitido.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/Unidad8.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/practicaParcial1.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -288,6 +288,37 @@ build Unidad8: C_EXECUTABLE_LINKER__Unidad8_Debug CMakeFiles/Unidad8.dir/Unidad8
   TARGET_FILE = Unidad8
   TARGET_PDB = Unidad8.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target practicaParcial1
+
+
+#############################################
+# Order-only phony target for practicaParcial1
+
+build cmake_object_order_depends_target_practicaParcial1: phony || CMakeFiles/practicaParcial1.dir
+
+build CMakeFiles/practicaParcial1.dir/practicaParcial1.c.o: C_COMPILER__practicaParcial1_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/practicaParcial1.c || cmake_object_order_depends_target_practicaParcial1
+  DEP_FILE = CMakeFiles/practicaParcial1.dir/practicaParcial1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/practicaParcial1.dir
+  OBJECT_FILE_DIR = CMakeFiles/practicaParcial1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target practicaParcial1
+
+
+#############################################
+# Link the executable practicaParcial1
+
+build practicaParcial1: C_EXECUTABLE_LINKER__practicaParcial1_Debug CMakeFiles/practicaParcial1.dir/practicaParcial1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/practicaParcial1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = practicaParcial1
+  TARGET_PDB = practicaParcial1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -322,7 +353,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1
 
 # =============================================================================
 # Built-in targets

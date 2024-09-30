@@ -77,7 +77,10 @@ void insertar2(nodo *p) {
             aux->sig = p->sig;
             p->sig = aux;
         }
-        p = p->sig;
+        else {
+            p = p->sig;
+        }
+
     }
 }
 

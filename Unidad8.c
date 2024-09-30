@@ -1,8 +1,14 @@
-/*Crear y mostrar una lista donde cada nodo tiene dos números enteros (termina con -1).
+/*1) Crear y mostrar una lista donde cada nodo tiene dos números enteros (termina con -1).
 
 Insertar el consecutivo de cada nodo si la suma de sus elementos es mayor a 10.
 Eliminar aquelos nodos donde ambos números son pares.
 Generar una lista con la suma de los elementos de cada nodo.*/
+
+/*2) Crear una lista con dos números enteros hasta que dichos números sean cero. Mostrarla
+
+a) Insertar el doble de cada numero si la suma de ambos es mayor a 10.
+b) Eliminar aquellos nodos donde el primer numero es múltiplo del segundo.
+c) Con los nodos eliminados, generar una lista nueva.*/
 
 #include <stdio.h>
 #include <stdlib.h>
