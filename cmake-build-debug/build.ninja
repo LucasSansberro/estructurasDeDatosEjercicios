@@ -319,6 +319,161 @@ build practicaParcial1: C_EXECUTABLE_LINKER__practicaParcial1_Debug CMakeFiles/p
   TARGET_FILE = practicaParcial1
   TARGET_PDB = practicaParcial1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target practicaParcial2
+
+
+#############################################
+# Order-only phony target for practicaParcial2
+
+build cmake_object_order_depends_target_practicaParcial2: phony || CMakeFiles/practicaParcial2.dir
+
+build CMakeFiles/practicaParcial2.dir/practicaParcial2.c.o: C_COMPILER__practicaParcial2_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/practicaParcial2.c || cmake_object_order_depends_target_practicaParcial2
+  DEP_FILE = CMakeFiles/practicaParcial2.dir/practicaParcial2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/practicaParcial2.dir
+  OBJECT_FILE_DIR = CMakeFiles/practicaParcial2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target practicaParcial2
+
+
+#############################################
+# Link the executable practicaParcial2
+
+build practicaParcial2: C_EXECUTABLE_LINKER__practicaParcial2_Debug CMakeFiles/practicaParcial2.dir/practicaParcial2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/practicaParcial2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = practicaParcial2
+  TARGET_PDB = practicaParcial2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target primerParcialSansberro
+
+
+#############################################
+# Order-only phony target for primerParcialSansberro
+
+build cmake_object_order_depends_target_primerParcialSansberro: phony || CMakeFiles/primerParcialSansberro.dir
+
+build CMakeFiles/primerParcialSansberro.dir/primerParcialSansberro.c.o: C_COMPILER__primerParcialSansberro_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/primerParcialSansberro.c || cmake_object_order_depends_target_primerParcialSansberro
+  DEP_FILE = CMakeFiles/primerParcialSansberro.dir/primerParcialSansberro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/primerParcialSansberro.dir
+  OBJECT_FILE_DIR = CMakeFiles/primerParcialSansberro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target primerParcialSansberro
+
+
+#############################################
+# Link the executable primerParcialSansberro
+
+build primerParcialSansberro: C_EXECUTABLE_LINKER__primerParcialSansberro_Debug CMakeFiles/primerParcialSansberro.dir/primerParcialSansberro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/primerParcialSansberro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = primerParcialSansberro
+  TARGET_PDB = primerParcialSansberro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unidad11
+
+
+#############################################
+# Order-only phony target for unidad11
+
+build cmake_object_order_depends_target_unidad11: phony || CMakeFiles/unidad11.dir
+
+build CMakeFiles/unidad11.dir/unidad11.c.o: C_COMPILER__unidad11_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/unidad11.c || cmake_object_order_depends_target_unidad11
+  DEP_FILE = CMakeFiles/unidad11.dir/unidad11.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/unidad11.dir
+  OBJECT_FILE_DIR = CMakeFiles/unidad11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unidad11
+
+
+#############################################
+# Link the executable unidad11
+
+build unidad11: C_EXECUTABLE_LINKER__unidad11_Debug CMakeFiles/unidad11.dir/unidad11.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/unidad11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = unidad11
+  TARGET_PDB = unidad11.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aptoExamen-colas
+
+
+#############################################
+# Order-only phony target for aptoExamen-colas
+
+build cmake_object_order_depends_target_aptoExamen-colas: phony || CMakeFiles/aptoExamen-colas.dir
+
+build CMakeFiles/aptoExamen-colas.dir/aptoExamen-colas.c.o: C_COMPILER__aptoExamen-colas_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/aptoExamen-colas.c || cmake_object_order_depends_target_aptoExamen-colas
+  DEP_FILE = CMakeFiles/aptoExamen-colas.dir/aptoExamen-colas.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/aptoExamen-colas.dir
+  OBJECT_FILE_DIR = CMakeFiles/aptoExamen-colas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aptoExamen-colas
+
+
+#############################################
+# Link the executable aptoExamen-colas
+
+build aptoExamen-colas: C_EXECUTABLE_LINKER__aptoExamen-colas_Debug CMakeFiles/aptoExamen-colas.dir/aptoExamen-colas.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/aptoExamen-colas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = aptoExamen-colas
+  TARGET_PDB = aptoExamen-colas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aptoExamen-pilas
+
+
+#############################################
+# Order-only phony target for aptoExamen-pilas
+
+build cmake_object_order_depends_target_aptoExamen-pilas: phony || CMakeFiles/aptoExamen-pilas.dir
+
+build CMakeFiles/aptoExamen-pilas.dir/aptoExamen-pilas.c.o: C_COMPILER__aptoExamen-pilas_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/aptoExamen-pilas.c || cmake_object_order_depends_target_aptoExamen-pilas
+  DEP_FILE = CMakeFiles/aptoExamen-pilas.dir/aptoExamen-pilas.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/aptoExamen-pilas.dir
+  OBJECT_FILE_DIR = CMakeFiles/aptoExamen-pilas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aptoExamen-pilas
+
+
+#############################################
+# Link the executable aptoExamen-pilas
+
+build aptoExamen-pilas: C_EXECUTABLE_LINKER__aptoExamen-pilas_Debug CMakeFiles/aptoExamen-pilas.dir/aptoExamen-pilas.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/aptoExamen-pilas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = aptoExamen-pilas
+  TARGET_PDB = aptoExamen-pilas.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -353,7 +508,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas
 
 # =============================================================================
 # Built-in targets
