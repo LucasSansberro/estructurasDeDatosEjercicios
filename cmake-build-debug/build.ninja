@@ -474,6 +474,37 @@ build aptoExamen-pilas: C_EXECUTABLE_LINKER__aptoExamen-pilas_Debug CMakeFiles/a
   TARGET_FILE = aptoExamen-pilas
   TARGET_PDB = aptoExamen-pilas.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target unidad11-colas
+
+
+#############################################
+# Order-only phony target for unidad11-colas
+
+build cmake_object_order_depends_target_unidad11-colas: phony || CMakeFiles/unidad11-colas.dir
+
+build CMakeFiles/unidad11-colas.dir/unidad11-colas.c.o: C_COMPILER__unidad11-colas_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/unidad11-colas.c || cmake_object_order_depends_target_unidad11-colas
+  DEP_FILE = CMakeFiles/unidad11-colas.dir/unidad11-colas.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/unidad11-colas.dir
+  OBJECT_FILE_DIR = CMakeFiles/unidad11-colas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unidad11-colas
+
+
+#############################################
+# Link the executable unidad11-colas
+
+build unidad11-colas: C_EXECUTABLE_LINKER__unidad11-colas_Debug CMakeFiles/unidad11-colas.dir/unidad11-colas.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/unidad11-colas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = unidad11-colas
+  TARGET_PDB = unidad11-colas.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -508,7 +539,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas
 
 # =============================================================================
 # Built-in targets
