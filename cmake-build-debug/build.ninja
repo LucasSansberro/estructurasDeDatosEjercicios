@@ -505,6 +505,68 @@ build unidad11-colas: C_EXECUTABLE_LINKER__unidad11-colas_Debug CMakeFiles/unida
   TARGET_FILE = unidad11-colas
   TARGET_PDB = unidad11-colas.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target aptoExamen-arboles
+
+
+#############################################
+# Order-only phony target for aptoExamen-arboles
+
+build cmake_object_order_depends_target_aptoExamen-arboles: phony || CMakeFiles/aptoExamen-arboles.dir
+
+build CMakeFiles/aptoExamen-arboles.dir/aptoExamen-arboles.c.o: C_COMPILER__aptoExamen-arboles_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/aptoExamen-arboles.c || cmake_object_order_depends_target_aptoExamen-arboles
+  DEP_FILE = CMakeFiles/aptoExamen-arboles.dir/aptoExamen-arboles.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/aptoExamen-arboles.dir
+  OBJECT_FILE_DIR = CMakeFiles/aptoExamen-arboles.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aptoExamen-arboles
+
+
+#############################################
+# Link the executable aptoExamen-arboles
+
+build aptoExamen-arboles: C_EXECUTABLE_LINKER__aptoExamen-arboles_Debug CMakeFiles/aptoExamen-arboles.dir/aptoExamen-arboles.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/aptoExamen-arboles.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = aptoExamen-arboles
+  TARGET_PDB = aptoExamen-arboles.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unidad12
+
+
+#############################################
+# Order-only phony target for unidad12
+
+build cmake_object_order_depends_target_unidad12: phony || CMakeFiles/unidad12.dir
+
+build CMakeFiles/unidad12.dir/unidad12.c.o: C_COMPILER__unidad12_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/unidad12.c || cmake_object_order_depends_target_unidad12
+  DEP_FILE = CMakeFiles/unidad12.dir/unidad12.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/unidad12.dir
+  OBJECT_FILE_DIR = CMakeFiles/unidad12.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unidad12
+
+
+#############################################
+# Link the executable unidad12
+
+build unidad12: C_EXECUTABLE_LINKER__unidad12_Debug CMakeFiles/unidad12.dir/unidad12.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/unidad12.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = unidad12
+  TARGET_PDB = unidad12.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -539,7 +601,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12
 
 # =============================================================================
 # Built-in targets

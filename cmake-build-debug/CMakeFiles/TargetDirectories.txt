@@ -13,5 +13,7 @@
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/aptoExamen-colas.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/aptoExamen-pilas.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/unidad11-colas.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/aptoExamen-arboles.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/unidad12.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
