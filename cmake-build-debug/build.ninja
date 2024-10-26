@@ -567,6 +567,37 @@ build unidad12: C_EXECUTABLE_LINKER__unidad12_Debug CMakeFiles/unidad12.dir/unid
   TARGET_FILE = unidad12
   TARGET_PDB = unidad12.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target repaso2parcial-1
+
+
+#############################################
+# Order-only phony target for repaso2parcial-1
+
+build cmake_object_order_depends_target_repaso2parcial-1: phony || CMakeFiles/repaso2parcial-1.dir
+
+build CMakeFiles/repaso2parcial-1.dir/repaso2parcial-1.c.o: C_COMPILER__repaso2parcial-1_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/repaso2parcial-1.c || cmake_object_order_depends_target_repaso2parcial-1
+  DEP_FILE = CMakeFiles/repaso2parcial-1.dir/repaso2parcial-1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/repaso2parcial-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/repaso2parcial-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target repaso2parcial-1
+
+
+#############################################
+# Link the executable repaso2parcial-1
+
+build repaso2parcial-1: C_EXECUTABLE_LINKER__repaso2parcial-1_Debug CMakeFiles/repaso2parcial-1.dir/repaso2parcial-1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/repaso2parcial-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = repaso2parcial-1
+  TARGET_PDB = repaso2parcial-1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -601,7 +632,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12 repaso2parcial-1
 
 # =============================================================================
 # Built-in targets
