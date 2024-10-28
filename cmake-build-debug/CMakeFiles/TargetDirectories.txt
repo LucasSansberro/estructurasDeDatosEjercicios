@@ -17,5 +17,6 @@
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/unidad12.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/repaso2parcial-1.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/repaso2parcial-2.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/segundoParcial-sansberro.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

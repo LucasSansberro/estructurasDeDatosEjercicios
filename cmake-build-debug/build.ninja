@@ -629,6 +629,37 @@ build repaso2parcial-2: C_EXECUTABLE_LINKER__repaso2parcial-2_Debug CMakeFiles/r
   TARGET_FILE = repaso2parcial-2
   TARGET_PDB = repaso2parcial-2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target segundoParcial-sansberro
+
+
+#############################################
+# Order-only phony target for segundoParcial-sansberro
+
+build cmake_object_order_depends_target_segundoParcial-sansberro: phony || CMakeFiles/segundoParcial-sansberro.dir
+
+build CMakeFiles/segundoParcial-sansberro.dir/segundoParcial-sansberro.c.o: C_COMPILER__segundoParcial-sansberro_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/segundoParcial-sansberro.c || cmake_object_order_depends_target_segundoParcial-sansberro
+  DEP_FILE = CMakeFiles/segundoParcial-sansberro.dir/segundoParcial-sansberro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/segundoParcial-sansberro.dir
+  OBJECT_FILE_DIR = CMakeFiles/segundoParcial-sansberro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target segundoParcial-sansberro
+
+
+#############################################
+# Link the executable segundoParcial-sansberro
+
+build segundoParcial-sansberro: C_EXECUTABLE_LINKER__segundoParcial-sansberro_Debug CMakeFiles/segundoParcial-sansberro.dir/segundoParcial-sansberro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/segundoParcial-sansberro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = segundoParcial-sansberro
+  TARGET_PDB = segundoParcial-sansberro.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -663,7 +694,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12 repaso2parcial-1 repaso2parcial-2
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12 repaso2parcial-1 repaso2parcial-2 segundoParcial-sansberro
 
 # =============================================================================
 # Built-in targets
