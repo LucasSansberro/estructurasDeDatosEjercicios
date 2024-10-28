@@ -34,7 +34,10 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21,
+						22
 					]
 				}
 			],
@@ -68,7 +71,10 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21,
+						22
 					]
 				}
 			],
@@ -149,6 +155,27 @@
 					"id" : "aptoExamen-pilas::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-aptoExamen-pilas-Debug-17111b2754959e575128.json",
 					"name" : "aptoExamen-pilas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicioArboles-parcial2-sansberro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicioArboles-parcial2-sansberro-Debug-4e146b1a91bd43d16d33.json",
+					"name" : "ejercicioArboles-parcial2-sansberro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicioColas-parcial2-sansberro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicioColas-parcial2-sansberro-Debug-b715abacf80d1d5675fd.json",
+					"name" : "ejercicioColas-parcial2-sansberro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicioPilas-parcial2-sansberro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicioPilas-parcial2-sansberro-Debug-6d3f5910c5a0ccfee7de.json",
+					"name" : "ejercicioPilas-parcial2-sansberro",
 					"projectIndex" : 0
 				},
 				{

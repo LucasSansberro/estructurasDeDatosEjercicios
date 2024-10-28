@@ -660,6 +660,99 @@ build segundoParcial-sansberro: C_EXECUTABLE_LINKER__segundoParcial-sansberro_De
   TARGET_FILE = segundoParcial-sansberro
   TARGET_PDB = segundoParcial-sansberro.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicioArboles-parcial2-sansberro
+
+
+#############################################
+# Order-only phony target for ejercicioArboles-parcial2-sansberro
+
+build cmake_object_order_depends_target_ejercicioArboles-parcial2-sansberro: phony || CMakeFiles/ejercicioArboles-parcial2-sansberro.dir
+
+build CMakeFiles/ejercicioArboles-parcial2-sansberro.dir/ejercicioArboles-parcial2-sansberro.c.o: C_COMPILER__ejercicioArboles-parcial2-sansberro_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/ejercicioArboles-parcial2-sansberro.c || cmake_object_order_depends_target_ejercicioArboles-parcial2-sansberro
+  DEP_FILE = CMakeFiles/ejercicioArboles-parcial2-sansberro.dir/ejercicioArboles-parcial2-sansberro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/ejercicioArboles-parcial2-sansberro.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejercicioArboles-parcial2-sansberro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicioArboles-parcial2-sansberro
+
+
+#############################################
+# Link the executable ejercicioArboles-parcial2-sansberro
+
+build ejercicioArboles-parcial2-sansberro: C_EXECUTABLE_LINKER__ejercicioArboles-parcial2-sansberro_Debug CMakeFiles/ejercicioArboles-parcial2-sansberro.dir/ejercicioArboles-parcial2-sansberro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ejercicioArboles-parcial2-sansberro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejercicioArboles-parcial2-sansberro
+  TARGET_PDB = ejercicioArboles-parcial2-sansberro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicioPilas-parcial2-sansberro
+
+
+#############################################
+# Order-only phony target for ejercicioPilas-parcial2-sansberro
+
+build cmake_object_order_depends_target_ejercicioPilas-parcial2-sansberro: phony || CMakeFiles/ejercicioPilas-parcial2-sansberro.dir
+
+build CMakeFiles/ejercicioPilas-parcial2-sansberro.dir/ejercicioPilas-parcial2-sansberro.c.o: C_COMPILER__ejercicioPilas-parcial2-sansberro_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/ejercicioPilas-parcial2-sansberro.c || cmake_object_order_depends_target_ejercicioPilas-parcial2-sansberro
+  DEP_FILE = CMakeFiles/ejercicioPilas-parcial2-sansberro.dir/ejercicioPilas-parcial2-sansberro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/ejercicioPilas-parcial2-sansberro.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejercicioPilas-parcial2-sansberro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicioPilas-parcial2-sansberro
+
+
+#############################################
+# Link the executable ejercicioPilas-parcial2-sansberro
+
+build ejercicioPilas-parcial2-sansberro: C_EXECUTABLE_LINKER__ejercicioPilas-parcial2-sansberro_Debug CMakeFiles/ejercicioPilas-parcial2-sansberro.dir/ejercicioPilas-parcial2-sansberro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ejercicioPilas-parcial2-sansberro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejercicioPilas-parcial2-sansberro
+  TARGET_PDB = ejercicioPilas-parcial2-sansberro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicioColas-parcial2-sansberro
+
+
+#############################################
+# Order-only phony target for ejercicioColas-parcial2-sansberro
+
+build cmake_object_order_depends_target_ejercicioColas-parcial2-sansberro: phony || CMakeFiles/ejercicioColas-parcial2-sansberro.dir
+
+build CMakeFiles/ejercicioColas-parcial2-sansberro.dir/ejercicioColas-parcial2-sansberro.c.o: C_COMPILER__ejercicioColas-parcial2-sansberro_unscanned_Debug /home/lucas/CLionProjects/EstructurasDeDatos/ejercicioColas-parcial2-sansberro.c || cmake_object_order_depends_target_ejercicioColas-parcial2-sansberro
+  DEP_FILE = CMakeFiles/ejercicioColas-parcial2-sansberro.dir/ejercicioColas-parcial2-sansberro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/ejercicioColas-parcial2-sansberro.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejercicioColas-parcial2-sansberro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicioColas-parcial2-sansberro
+
+
+#############################################
+# Link the executable ejercicioColas-parcial2-sansberro
+
+build ejercicioColas-parcial2-sansberro: C_EXECUTABLE_LINKER__ejercicioColas-parcial2-sansberro_Debug CMakeFiles/ejercicioColas-parcial2-sansberro.dir/ejercicioColas-parcial2-sansberro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ejercicioColas-parcial2-sansberro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejercicioColas-parcial2-sansberro
+  TARGET_PDB = ejercicioColas-parcial2-sansberro.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -694,7 +787,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug
 
-build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12 repaso2parcial-1 repaso2parcial-2 segundoParcial-sansberro
+build all: phony Unidad3 EntregaMatrices Unidad4 EntregaRecursividad Unidad6 Unidad7 ApuntePermitido Unidad8 practicaParcial1 practicaParcial2 primerParcialSansberro unidad11 aptoExamen-colas aptoExamen-pilas unidad11-colas aptoExamen-arboles unidad12 repaso2parcial-1 repaso2parcial-2 segundoParcial-sansberro ejercicioArboles-parcial2-sansberro ejercicioPilas-parcial2-sansberro ejercicioColas-parcial2-sansberro
 
 # =============================================================================
 # Built-in targets

@@ -18,5 +18,8 @@
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/repaso2parcial-1.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/repaso2parcial-2.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/segundoParcial-sansberro.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/ejercicioArboles-parcial2-sansberro.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/ejercicioPilas-parcial2-sansberro.dir
+/home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/ejercicioColas-parcial2-sansberro.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lucas/CLionProjects/EstructurasDeDatos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
